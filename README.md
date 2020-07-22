@@ -1,0 +1,1 @@
+# Gigabyte-Z490-AORUS-Pro-AX-EFI-OpenCore-
