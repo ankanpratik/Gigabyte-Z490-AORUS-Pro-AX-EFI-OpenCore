@@ -1,9 +1,10 @@
 # [☀️] OpenCore EFI for Z490 AORUS Pro
-
+</br>
 
 ![FC5Ntu8VkAMP8Rk](https://user-images.githubusercontent.com/9656361/140409328-7013ee8b-adf0-476d-8db7-5b46ff1ccae1.jpeg)
-
-
+</br>
+</br>
+</br>
 
 ## [🔥] Update
 
@@ -13,6 +14,8 @@ Since the last update, I've removed the Fenvi module and am using completely onb
 
 Also I've been using the BSXiMacSilver theme for the bootloader and I quite like it. You could always change to the default ones included on the folder.
 You would also need to run the CreateVault Utility to fully support SecureBoot and make it more robust.
+</br>
+</br>
 
 ## [🚨] Warning
 
@@ -20,14 +23,15 @@ You would also need to run the CreateVault Utility to fully support SecureBoot a
 
 (OLD VERSION):
 This is taken from AORUS Elite EFI and has been modified to work with the motherboard for the time being. Will update soon with proper configurations. Presently everything seems to work including Sleep, WiFi, Bluetooth (Fenvi TV919 + disabled the onboard WiFi + Bluetooth module). I'm relatively new to Hackintosh so please take it as a grain of salt and use it just to load up your system. Won't suggest to use it as your main system for stability.
-
+</br>
+</br>
 
 ## [☘️] Installation
 
-Create a bootable USB
-Copy the EFI Folder to your removable storage
-Open Config.plist and add your SMBIOS details etc. and save it
-Boot into the drive and install
-Post-install, copy the EFI into your hard disk.
-Before reboot, run the CreateVault command from the Utility section.
-Done.
+• Create a bootable USB</br>
+• Copy the EFI Folder to your removable storage</br>
+• Open Config.plist and add your SMBIOS details etc. and save it</br>
+• Boot into the drive and install</br>
+• Post-install, copy the EFI into your hard disk.</br>
+• Before reboot, run the CreateVault command from the Utility section.</br>
+• Done.
