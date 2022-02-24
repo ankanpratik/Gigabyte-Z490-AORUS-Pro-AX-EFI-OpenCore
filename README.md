@@ -8,6 +8,8 @@
 
 ## [🔥] Update
 
+**02.2022: Updated to OC 0.7.8**
+
 **11.2021: I've updated the files to support Monterey!!**
 
 Since the last update, I've removed the Fenvi module and am using completely onboard WiFi + Bluetooth thanks to OpenIntelWireless. In my opinion, this gives much better reception and coverage. AirDrop, Continuity, HandOff and AirPlay works now without any problems. On the next patch I'll update it to 0.7.5 as well.
