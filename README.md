@@ -6,7 +6,59 @@
 </br>
 </br>
 
+## Build Info
+
+<details>
+<summary><strong>Hardware Components</strong></summary>
+
+| Component           | Details                                                 |
+| :-------------------|-------------------------------------------------------- |
+| Mainboard           | Gigabyte Z490 AORUS Pro AX |
+| BIOS		            | F21. F5 or newer is required to disable `CFG Lock`. Otherwise use Kernel Quirk `AppleXcpmCfgLock`|
+| CPU                 | Intel® Core i7 10700K (Comet Lake)|
+| RAM                 | 32 GB DDR4 3000Mhz G.Skill TridentZ RGB |
+| iGPU		            | Intel® UHD 630. Configured for computing tasks only |
+| GPU                 | ASUS RX580 8GB |
+| Audio               | Realtek® ALC1220-VB (Layout-id: 1D000000) |
+| Ethernet            | Using onboard Intel® I225-V 2.5GbE |
+| WiFi + Bluetooth    | Using onboard through Airportitlm + IntelBluetooth Kexts |
+
+</details>
+<details>
+<summary><strong>BIOS Settings</strong></summary>
+
+* **Tweaker [TAB]**
+	* Extreme Memory Profile (XMP): Enabled (if supported by RAM)
+	* Advanced CPU Settings
+		* VT-d: Enabled (disabled in config.plist anyway, so only relevant to Windows)
+		* Intel Speed Shit: Enabled
+* **Settings [TAB]**
+	* Platform Power
+		* Platform Power Management: Disabled
+		* ErP: Enabled (so USB Power turns off, after PC is shut down)
+	* IO Ports
+		* Internal Graphics: enabled (if CPU has integrated graphics). **NOTE**: The config.plist uses dGPU for Display(s) and iGPU for computational tasks only by default. If you want to use the iGPU to drive a display you need a different Framebuffer Patch (see "EFI Install Instructions" for details).
+		* OnBoard LAN Controller: Enabled
+		* Audio Controller: Enabled (if On-Board Sound Card is used)
+		* Above 4G Decoding: Enabled
+		* Re-Size BAR Support: Disabled
+		* IOAPIC 24-119 Entries: Enabled
+		* Super IO Configuration
+			* Serial Port: Disabled
+		* USB Configuration
+			* Legacy USB Support: Disabled
+			* XHCI Hand-off: Enabled
+		* Network Stack Configuration
+			* Network Stack: Disabled
+* **Boot [TAB]**
+	* CFGLock: Disabled (Option only available on newer BIOS versions)
+	* Windows 10 Features: Windows 10 
+	* CSM: Disabled (to get rid of legacy code from `DSDT`)
+</details>
+
 ## [🔥] Update
+
+**25.03.2022: Updated to OC 0.7.9**
 
 **02.2022: Updated to OC 0.7.8**
 
