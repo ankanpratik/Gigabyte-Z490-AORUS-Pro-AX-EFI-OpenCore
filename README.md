@@ -84,6 +84,8 @@ Also I've been using the BSXiMacSilver theme for the bootloader and I quite like
 - [x] Using iMacPro1,1: Amazon Prime Video and Netflix in Safari, AppleTV
 - [x] Shutdown
 - [x] Restart
+- [x] Facetime + iMessages
+- [x] Handoff
 - [x] Upgrading to newer MacOS versions. I had upgraded from Catalina to recently Monterey without any issue.
 </br>
 
@@ -91,6 +93,7 @@ Also I've been using the BSXiMacSilver theme for the bootloader and I quite like
 - [ ] Sleep is a hit/miss when using iMacPro1,1. Sometimes the system Sleeps automatically but never works when forced. iMac20,1 works 90% of the time.
 - [ ] (Outside my control) Onboard LAN support has been removed for Intel i225V. If you require that, don't upgrade to Monterey.
 - [ ] (Outside my control) Airdrop. You'll need a native compatible PCIe card, like Fenvi TV919 for it to work. If you have that, remove BlueToolFixup.kext, IntelBluetoothFirmware.kext and IntelBluetoothInjector.kext.
+- [ ] [WIP] iGPU doesn't work when using iMac20,1 as a headless accelarator. dGPU always works as its natively supported.
 </br>
 
 ## [🚨] Warning
