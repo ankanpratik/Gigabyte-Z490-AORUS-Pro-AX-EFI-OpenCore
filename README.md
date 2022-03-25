@@ -81,7 +81,7 @@ Also I've been using the BSXiMacSilver theme for the bootloader and I quite like
 - [x] Restart
 - [x] Facetime + iMessages
 - [x] Handoff
-- [x] Upgrading to newer MacOS versions. I had upgraded from Catalina to recently Monterey without any issue.
+- [x] Upgrading to newer MacOS versions. I had upgraded from Catalina to Big Sur to recently Monterey, without any issues!
 </br>
 
 ## [💔] What Doesn't Work
