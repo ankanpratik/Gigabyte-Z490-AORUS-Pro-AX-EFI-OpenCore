@@ -79,7 +79,7 @@ Also I've been using the BSXiMacSilver theme for the bootloader and I quite like
 - [x] Facetime + iMessages
 - [x] Handoff, Sidecar through USB, Continuity
 - [x] Upgrading to newer MacOS versions. I had upgraded from Catalina to Big Sur to recently Ventura, without any issues!
-- [x] Sleep (use this fantastic guide by SchmockLord (https://github.com/SchmockLord/Hackintosh-Intel-i9-10900k-Gigabyte-Z490-Vision-D)
+- [x] Sleep [use this fantastic guide by SchmockLord (https://github.com/SchmockLord/Hackintosh-Intel-i9-10900k-Gigabyte-Z490-Vision-D)]
 </br>
 
 ## [💔] What Doesn't Work
