@@ -37,7 +37,7 @@ Cheers.</br>
 	* Extreme Memory Profile (XMP): Enabled (if supported by RAM)
 	* Advanced CPU Settings
 		* VT-d: Enabled (disabled in config.plist anyway, so only relevant to Windows)
-		* Intel Speed Shit: Enabled
+		* Intel Speed Shift: Enabled
 * **Settings [TAB]**
 	* Platform Power
 		* Platform Power Management: Disabled
@@ -46,33 +46,30 @@ Cheers.</br>
 		* Internal Graphics: enabled (if CPU has integrated graphics). **NOTE**: The config.plist uses dGPU for Display(s) and iGPU for computational tasks only by default. If you want to use the iGPU to drive a display you need a different Framebuffer Patch.
 		* OnBoard LAN Controller: Enabled
 		* Audio Controller: Enabled (if On-Board Sound Card is used)
-		* Above 4G Decoding: Enabled
+		* Above 4G Decoding: Disabled
 		* Re-Size BAR Support: Disabled
 		* IOAPIC 24-119 Entries: Enabled
-		* Super IO Configuration
-			* Serial Port: Disabled
 		* USB Configuration
 			* Legacy USB Support: Disabled
 			* XHCI Hand-off: Enabled
-		* Network Stack Configuration
-			* Network Stack: Disabled
+			
 * **Boot [TAB]**
 	* CFGLock: Disabled (Option only available on newer BIOS versions)
-	* Windows 10 Features: Windows 10 
+	* Windows 10 Features: Other OS 
 	* CSM: Disabled (to get rid of legacy code from `DSDT`)
 </details>
 </br>
 </br>
 
 ## [🔥] Update
-Since the last update, I've removed the Fenvi module and am using completely onboard WiFi + Bluetooth thanks to OpenIntelWireless. In my opinion, this gives much better reception and coverage. AirDrop, Continuity, HandOff and AirPlay works now without any problems. On the next patch I'll update it to 0.7.5 as well.
+I've stopped using the Fenvi module and am using completely onboard WiFi + Bluetooth thanks to OpenIntelWireless. In my opinion, this gives much better reception and coverage. Continuity, HandOff and Sidecar to iPad (using USB) works without any problems. If you need AirDrop, Airplay or Universal Control, disable the Kexts AirportItlwm.kext, IntelBTPatcher.kext, IntelBluetoothFirmware.kext and BlueToolFixup.kext. Since this system is in a different room, I'm unable to test LAN, but the onboard WiFi works solid!
 </br>
 Also I've been using the BSXiMacSilver theme for the bootloader and I quite like it. You could always change to the default ones included on the folder.
 </br>
 </br>
 
 ## [💚] What Works
-- [x] **MacOS Monterey 12.3**
+- [x] **MacOS Ventura 13.1**
 - [x] In-built Wi-fi and Bluetooth
 - [x] Audio: Realtek ALC1220-VB (AppleALC.kext, layout-id=7,FakeID.kext, FakePCIID_Intel_HDMI_Audio.kext)
 - [x] USB - All ports including front USB ports (NZXT S340 Elite)
@@ -80,15 +77,13 @@ Also I've been using the BSXiMacSilver theme for the bootloader and I quite like
 - [x] Shutdown
 - [x] Restart
 - [x] Facetime + iMessages
-- [x] Handoff
-- [x] Upgrading to newer MacOS versions. I had upgraded from Catalina to Big Sur to recently Monterey, without any issues!
+- [x] Handoff, Sidecar through USB, Continuity
+- [x] Upgrading to newer MacOS versions. I had upgraded from Catalina to Big Sur to recently Ventura, without any issues!
+- [x] Sleep (use this fantastic guide by SchmockLord (https://github.com/SchmockLord/Hackintosh-Intel-i9-10900k-Gigabyte-Z490-Vision-D)
 </br>
 
 ## [💔] What Doesn't Work
-- [ ] Sleep is a hit/miss when using iMacPro1,1. Sometimes the system Sleeps automatically but never works when forced. iMac20,1 works 90% of the time.
-- [ ] (Outside my control) Onboard LAN support has been removed for Intel i225V. If you require that, don't upgrade to Monterey.
-- [ ] (Outside my control) Airdrop. You'll need a native compatible PCIe card, like Fenvi TV919 for it to work. If you have that, remove BlueToolFixup.kext, IntelBluetoothFirmware.kext and IntelBluetoothInjector.kext.
-- [ ] [WIP] iGPU doesn't work when using iMac20,1 as a headless accelarator. dGPU always works as its natively supported.
+- [ ] (Outside my control) Airdrop / Universal Control using Itwlm. You'll need a native compatible PCIe card, like Fenvi TV919 for it to work. If you have that, remove AirportItlwm.kext, IntelBTPatcher.kext, IntelBluetoothFirmware.kext and BlueToolFixup.kext.
 </br>
 
 ## [🚨] Warning
@@ -103,3 +98,9 @@ Also I've been using the BSXiMacSilver theme for the bootloader and I quite like
 • Boot into the drive and install</br>
 • Post-install, copy the EFI into your hard disk.</br>
 • Done.
+
+## [🙏] Credits
+• https://github.com/SchmockLord
+• https://github.com/5T33Z0
+• https://github.com/acidanthera
+• https://github.com/dortania
