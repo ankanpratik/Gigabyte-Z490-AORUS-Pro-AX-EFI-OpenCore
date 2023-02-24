@@ -26,7 +26,7 @@ Cheers.</br>
 | GPU                 | ASUS RX580 8GB |
 | Audio               | Realtek® ALC1220-VB (Layout-id: 1D000000) |
 | Ethernet            | Using onboard Intel® I225-V 2.5GbE |
-| WiFi + Bluetooth    | Using onboard through Airportitlm + IntelBluetooth Kexts |
+| WiFi + Bluetooth    | <s>Using onboard through Airportitlm + IntelBluetooth Kexts</s> Fenvi T919 |
 
 </br>
 </br>
@@ -36,7 +36,7 @@ Cheers.</br>
 * **Tweaker [TAB]**
 	* Extreme Memory Profile (XMP): Enabled (if supported by RAM)
 	* Advanced CPU Settings
-		* VT-d: Enabled (disabled in config.plist anyway, so only relevant to Windows)
+		* VT-d: Enabled
 		* Intel Speed Shift: Enabled
 * **Settings [TAB]**
 	* Platform Power
@@ -62,7 +62,8 @@ Cheers.</br>
 </br>
 
 ## [🔥] Update
-I've stopped using the Fenvi module and am using completely onboard WiFi + Bluetooth thanks to OpenIntelWireless. In my opinion, this gives much better reception and coverage. Continuity, HandOff and Sidecar to iPad (using USB) works without any problems. If you need AirDrop, Airplay or Universal Control, disable the Kexts AirportItlwm.kext, IntelBTPatcher.kext, IntelBluetoothFirmware.kext and BlueToolFixup.kext. Since this system is in a different room, I'm unable to test LAN, but the onboard WiFi works solid!
+<s>I've stopped using the Fenvi module and am using completely onboard WiFi + Bluetooth thanks to OpenIntelWireless. In my opinion, this gives much better reception and coverage. Continuity, HandOff and Sidecar to iPad (using USB) works without any problems. If you need AirDrop, Airplay or Universal Control, disable the Kexts AirportItlwm.kext, IntelBTPatcher.kext, IntelBluetoothFirmware.kext and BlueToolFixup.kext. Since this system is in a different room, I'm unable to test LAN, but the onboard WiFi works solid!</s></br></br>
+I've reverted back to using Fenvi T919 as Itwlm takes a long time to initialise in Ventura. This is a known bug and the team is trying to fix it.
 </br>
 Also I've been using the BSXiMacSilver theme for the bootloader and I quite like it. You could always change to the default ones included on the folder.
 </br>
