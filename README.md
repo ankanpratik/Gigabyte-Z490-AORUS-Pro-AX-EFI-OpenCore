@@ -65,8 +65,6 @@ Cheers.</br>
 <s>I've stopped using the Fenvi module and am using completely onboard WiFi + Bluetooth thanks to OpenIntelWireless. In my opinion, this gives much better reception and coverage. Continuity, HandOff and Sidecar to iPad (using USB) works without any problems. If you need AirDrop, Airplay or Universal Control, disable the Kexts AirportItlwm.kext, IntelBTPatcher.kext, IntelBluetoothFirmware.kext and BlueToolFixup.kext. Since this system is in a different room, I'm unable to test LAN, but the onboard WiFi works solid!</s></br></br>
 I've reverted back to using Fenvi T919 as Itwlm takes a long time to initialise in Ventura. This is a known bug and the team is trying to fix it.
 </br>
-Also I've been using the BSXiMacSilver theme for the bootloader and I quite like it. You could always change to the default ones included on the folder.
-</br>
 </br>
 
 ## [💚] What Works
