@@ -1,7 +1,8 @@
 # [☀️] OpenCore EFI for Z490 AORUS Pro
 </br>
 
-![FC5Ntu8VkAMP8Rk](https://user-images.githubusercontent.com/9656361/140409328-7013ee8b-adf0-476d-8db7-5b46ff1ccae1.jpeg)
+![FC5Ntu8VkAMP8Rk](https://user-images.githubusercontent.com/9656361/140409328-7013ee8b-adf0-476d-8db7-5b46ff1ccae1.jpeg)<img width="2560" alt="Screenshot 2023-03-06 at 11 52 01 PM" src="https://user-images.githubusercontent.com/9656361/223198026-7060c51a-9ee4-40ef-9c79-1139b110a901.png">
+
 </br>
 </br>
 
